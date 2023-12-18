@@ -1,6 +1,5 @@
 import pvporcupine
 import pyaudio
-import pvporcupine
 import struct
 import sys
 

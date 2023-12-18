@@ -1,0 +1,11 @@
+openai-whisper
+pyaudio
+python-dotenv
+soundfile
+pydub
+requests
+openai
+open-interpreter
+sounddevice
+elevenlabs
+pvporcupine
