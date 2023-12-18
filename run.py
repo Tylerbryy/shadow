@@ -1,14 +1,14 @@
 import os
 import sys
-from src2.whisper_config import transcribe
-from src2.elevenlabs_config import speak, set_api_key
+from src.whisper_config import transcribe
+from src.elevenlabs_config import speak, set_api_key
 import interpreter
 import sounddevice as sd
 import soundfile as sf
 from dotenv import load_dotenv
 import whisper
 import random
-from src2.porcupine_config import listen_for_wake_word
+from src.porcupine_config import listen_for_wake_word
 
 load_dotenv()
 # Load the Whisper model
